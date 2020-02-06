@@ -28,7 +28,7 @@ steps:
       curl -f  -o ./updatebot -L https://repo1.maven.org/maven2/io/jenkins/updatebot/updatebot/1.1.41/updatebot-1.1.41.jar
       chmod +x updatebot &&
       sudo cp updatebot /usr/local/bin
-      echo 'https://MikeVasylchenko:22665ba1a01a8451be94803c3897674caeec5a04@github.com' > $HOME/.git-credentials
+      echo 'https://MikeVasylchenko:$(token)@github.com' > $HOME/.git-credentials
 
 
 - task: CmdLine@2
