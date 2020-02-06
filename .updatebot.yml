@@ -1,5 +1,5 @@
 github:
   organisations:
-  - name: org.mikemasylchenko
+  - name: MikeVasylchenko
     repositories:
-    - name: testartifact1
+    - name: testartifact2

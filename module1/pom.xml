@@ -2,14 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>testartifact1</artifactId>
+        <groupId>MikeVasylchenko</groupId>
+        <version>1.4-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>MikeVasylchenko</groupId>
-    <artifactId>testartifact1</artifactId>
-    <version>1.4-SNAPSHOT</version>
-    <modules>
-        <module>module1</module>
-    </modules>
-    <packaging>pom</packaging>
-    <name>testartifact1</name>
+
+    <artifactId>module1</artifactId>
+    <version>1.6-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>module1</name>
+
 
 </project>
