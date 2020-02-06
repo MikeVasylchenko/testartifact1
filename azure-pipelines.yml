@@ -29,8 +29,7 @@ steps:
       chmod +x updatebot &&
       sudo cp updatebot /usr/local/bin
       cd ~
-      cat > .git-credentials 
-      https://MikeVasylchenko:73a9e7480f2cdb058467b6377154d03c619cf127@github.com
+      echo 'https://MikeVasylchenko:73a9e7480f2cdb058467b6377154d03c619cf127@github.com' > .git-credentials
 
 
 - task: CmdLine@2
