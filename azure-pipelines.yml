@@ -28,8 +28,13 @@ steps:
       curl -f  -o ./updatebot -L https://repo1.maven.org/maven2/io/jenkins/updatebot/updatebot/1.1.41/updatebot-1.1.41.jar
       chmod +x updatebot &&
       sudo cp updatebot /usr/local/bin
+      cd ~
+      cat > .git-credentials 
+      https://MikeVasylchenko:73a9e7480f2cdb058467b6377154d03c619cf127@github.com
+
 
 - task: CmdLine@2
   inputs:
     script: |
+      ls -la ~
       updatebot push
