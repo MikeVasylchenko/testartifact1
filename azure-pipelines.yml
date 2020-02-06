@@ -34,6 +34,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      ls -la ~
-      cat .git-credentials
+      echo $HOME
+      cat $HOME/.git-credentials
       updatebot push
