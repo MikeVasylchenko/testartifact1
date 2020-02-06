@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>MikeVasylchenko</groupId>
     <artifactId>testartifact1</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.6-SNAPSHOT</version>
     <modules>
         <module>module1</module>
     </modules>
