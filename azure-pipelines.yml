@@ -37,4 +37,4 @@ steps:
       echo $HOME
       cat $HOME/.git-credentials
       #updatebot push
-      updatebot push-regex -r 'autoscaling-solr-group-image-id=(.*)' -v gggggg terraform.tfvars
+      updatebot push-regex -r 'autoscaling-solr-group-image-id(.*)' -v =gggggg terraform.tfvars
